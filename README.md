@@ -15,6 +15,8 @@ Ensure you have all the required libraries installed. If not, you can install th
 ```bash
 pip install torch torchvision opencv-python matplotlib
 
+```
+
 ## Dataset
 /data/
     /EnglishFnt/
@@ -25,7 +27,7 @@ pip install torch torchvision opencv-python matplotlib
         ...
 
 
-Model Architecture
+## Model Architecture
 The model architecture for OCRNet consists of the following components:
 
 Two Convolutional Layers: To extract features from the input images.
